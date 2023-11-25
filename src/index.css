@@ -1,0 +1,19 @@
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+.open {
+  transform: translateX(0);
+}
+.sidebar-wrapper {
+  transition: all 0.5s;
+}
+.hide {
+  transform: translateX(-100%);
+}
+.active-link {
+  color: red;
+  font-weight: 900;
+}
